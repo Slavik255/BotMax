@@ -1,0 +1,26 @@
+{
+  "name": "botmax",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "homepage": "https://Slavik255.github.io/BotMax",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.6.3",
+    "vite": "^7.2.2"
+  }
+}
